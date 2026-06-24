@@ -2,12 +2,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-style: "Roboto", sans-serif;
 }
 .main {
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 230px 1fr;
 }
 .blue-area {
   height: 100%;
@@ -67,6 +68,11 @@
 .community {
   font-size: 1.2rem;
 }
+.p-three{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
 .setter, .supporter, .private{
   display: flex;
   flex-direction: row;
@@ -80,4 +86,106 @@
 }
 .setting, .support, .privacy{
   font-size: 1.2rem;
+}
+.pfl-one{
+    gap: 1.5rem;
+}
+.white-area{
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem 2.4rem;
+    padding-right: 2rem;
+    gap: 1.3rem;
+}
+.l-two{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    justify-content: space-between;
+}
+.magnifier{
+    width: 25px;
+    height: 25px;
+}
+.l-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    justify-content: space-between;
+}
+.search-bar{
+    background-color: #E2E8F0;
+    border-radius: 5rem;
+    min-width: 25rem;
+    min-height: 20px;
+    width: 100%;   
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.3rem;
+    flex: 1;
+}
+.cat-icon{
+    width: 40px;
+    height: 40px;
+}
+.bell-ring{
+    width: 30px;
+    height: 30px;
+}
+.part-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.morgan{
+    font-size: 1.35rem;
+    white-space: nowrap;
+}
+.cat2{
+    width: 80px;
+    height: 80px;
+}
+.l2-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.1rem;
+}
+.l2-two{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.oak{
+    font-size: 20px;
+    white-space: nowrap;
+}
+.l2-three{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+} 
+#box{
+    background-color: #0EA5E9;
+    border-radius: 2rem;
+    width: 6rem;
+    text-align: center;
+    height: 2.5rem;
+    padding-top: 0.7rem;
+    color: white;
+}
+.hi{
+    font-weight: 600;
+    font-size: 1rem;
 }
