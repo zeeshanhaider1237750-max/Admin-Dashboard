@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+}
+.blue-area {
+  height: 100%;
+  color: white;
+  background-color: #1976d2;
+  padding: 1.5rem;
+  padding-right: 4.2rem;
+  padding-left: 1rem;
+}
+.dasher {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3rem;
+}
+.dash-svg svg {
+  width: 45px;
+  height: 45px;
+  fill: white;
+}
+.dash {
+  font-size: 1.6rem;
+}
+.p-two {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  gap: 1.1rem;
+}
+.homer,
+.profiler,
+.messager,
+.historical,
+.taskes,
+.communities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+}
+.home-svg svg,
+.profile-svg svg,
+.message-svg svg,
+.history-svg svg,
+.task-svg svg,
+.community-svg svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+.home,
+.profile,
+.message,
+.history,
+.task,
+.community {
+  font-size: 1.2rem;
+}
+.setter, .supporter, .private{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+}
+.setting-svg svg, .support-svg svg, .privacy-svg svg{
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+.setting, .support, .privacy{
+  font-size: 1.2rem;
+}
