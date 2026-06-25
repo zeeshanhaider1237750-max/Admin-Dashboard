@@ -120,7 +120,7 @@
 }
 .search-bar{
     background-color: #E2E8F0;
-    border-radius: 5rem;
+    border-radius: 8rem;
     min-width: 25rem;
     min-height: 20px;
     width: 100%;   
@@ -243,7 +243,7 @@
     margin-bottom: 3rem;
 }
 .announce{
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 1.7rem;
 }
 .announce-box{
@@ -274,7 +274,7 @@ hr{
     margin: 0;
 }
 .trend{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.7rem;
 }
 .trend-box{
